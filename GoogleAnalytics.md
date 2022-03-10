@@ -15,6 +15,7 @@ Gelişmiş E-ticaret raporlaması, kullanıcılarınızın alışveriş davranı
  
 # 1.2 E-ticaret sitesinin Gelişmiş E-ticaret etkinlikleri.
 
+
 - Etkileşim: Kullanıcı bir sayfa gördüğünde etkileşim olay gönderilir.
 - Ürün Listesi Görünümleri: Ürün Kategori sayfasındaki ürün bilgileri ```view_item_list``` event isminde dataLayer’a eklenir.
 - Ürün Görüntüleme: Kullanıcı ürün sayfasının detayına geldiğinde ürünle ilgili bilgiler ```view_item``` event isminde dataLayer’a eklenir.
@@ -24,3 +25,14 @@ Gelişmiş E-ticaret raporlaması, kullanıcılarınızın alışveriş davranı
 - Ödeme: Kullanıcı ödeme adımlarına geldiğinde ürün biligileri ```begin_checkout``` event isminde dataLayer’a eklenir.
 - Alışveriş: Satın alma işlemi başarılıyla tamamlandığında, ```purchase``` event isminde dataLayer’a eklenir.
 - Promosyonlar: Sayfadaki Slyat veya Banner Performansı ölçmek için içerdiği bilgiler ```view_promotion``` event isminde dataLayer’a eklenir.
+ 
+## 1.3 GA4 Gelişmiş E-ticaret Geliştirici Kılavuzu
+
+### 1.3.1 Etkileşim
+
+Google Tag Manager ile yapılandırılan GA4 etiketinde etkileşim olayı otomatik gönderir. Bunun için herhangi bir kurulum yapmanıza gerek yoktur.
+ 
+### 1.3.2 Ürün Listesi Görünümleri.
+
+Kategori sayfalarında listelenen ürünlerin performansını ölçmek için, dataLayer’a bir ürün listesi gönderin ve bu verileri view_item_list olayında toplayın. ‘items’ içindeki objeler sayfadaki ürün sayısı kadar olacaktır.
+Arama ile sonuçlanan ürünlerin listesi de bu olaya dahil edilir ve item_list_name değeri “Search Results” olur.
