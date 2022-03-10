@@ -9,12 +9,9 @@
 Bu belgenin amacı, E-Ticaret siteniz için kullanıcı davranışını ve ürün/hizmet satışlarının ve kullanıcı eylemlerinin Google Analytics GA4’e gönderilmesini sağlamak için gerekli kodları entegre etmeye yardımcı olmaktır.
  
  
-## 1. Gelişmiş E-ticaret
+## 1. Gelişmiş E-ticaret etkinlikleri.
  
-Gelişmiş E-ticaret raporlaması, kullanıcılarınızın alışveriş davranışlarına ilişkin öngörüler sağlar ve en popüler ürünlerinizi ölçmenize ve promosyonların ve ürün yerleştirmenin gelirleri nasıl etkilediğini görmenize olanak tanır.
- 
-# 1.2 E-ticaret sitesinin Gelişmiş E-ticaret etkinlikleri.
-
+Gelişmiş E-ticaret raporlaması, kullanıcılarınızın alışveriş davranışlarına ilişkin öngörüler sağlar ve en popüler ürünlerinizi ölçmenize, promosyonların ve ürün yerleştirmenin gelirleri nasıl etkilediğini görmenize olanak tanır.
 
 - Etkileşim: Kullanıcı bir sayfa gördüğünde etkileşim olay gönderilir.
 - Ürün Listesi Görünümleri: Ürün Kategori sayfasındaki ürün bilgileri ```view_item_list``` event isminde dataLayer’a eklenir.
