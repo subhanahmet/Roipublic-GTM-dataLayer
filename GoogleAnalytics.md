@@ -2,12 +2,12 @@
 
 #
 
-#  Google Analytics Gelişmiş E-ticaret Kurulumu Dokümantasyonu.
+# Google Analytics (UA/GA4) Gelişmiş E-Ticaret Geliştirici Kılavuzu.
  
 Bu belgenin amacı, e-ticaret siteniz için kullanıcı davranışını, ürün/hizmet satışlarının ve kullanıcı eylemlerinin Universal Analaytics ve Google Analytics GA4’e gönderilmesini sağlamak için gerekli dataLayer kodlarını entegre etmeye yardımcı olmaktır.
  
  
-## 1. Gelişmiş E-ticaret etkinlikleri.
+## 1. Gelişmiş E-ticaret Etkinlikleri.
  
 Gelişmiş E-Ticaret raporlaması, kullanıcılarınızın alışveriş davranışlarına ilişkin öngörüler sağlar ve en popüler ürünlerinizi ölçmenize, promosyonların ve ürün yerleştirmenin gelirleri nasıl etkilediğini görmenize olanak tanır.
 
@@ -21,7 +21,7 @@ Gelişmiş E-Ticaret raporlaması, kullanıcılarınızın alışveriş davranı
 - Alışveriş: Satın alma işlemi başarılıyla tamamlandığında, ```purchase``` event isminde dataLayer’a eklenir.
 - Promosyonlar: Sayfadaki Slyat veya Banner Performansı ölçmek için içerdiği bilgiler ```view_promotion``` event isminde dataLayer’a eklenir.
  
-## 1.3 GA4 Gelişmiş E-ticaret Geliştirici Kılavuzu
+## 1.3 Kurulum Dokümantasyonu.
 
 ### 1.3.1 Etkileşim
 
