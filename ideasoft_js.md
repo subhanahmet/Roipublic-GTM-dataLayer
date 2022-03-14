@@ -1,20 +1,4 @@
  # Sipariş Takibi & Dönüşüm Kodu
- 
- ```javascript
-<script>
-window.dataLayer = window.dataLayer || [];
-window.dataLayer.push({
-  'event': 'transaction',
-  'ecommerce': {
-    'currency': 'TRY',
-    'value': '{total}',
-    'tax': '{tax}',
-    'shipping': '{cargo}',
-    'transaction_id': '{orderId}',
-  }
-});
-</script> 
-```
 
 #  Ürün Takip Kodu
 
@@ -55,9 +39,9 @@ var Quantity = new Array();
 [loop_product]
 FBurunler.push("{productId}");
 Prices.push("{productPrice}");
-Ids.push("{productPrice}");
-Names.push("{productPrice}");
-Quantity.push("{productPrice}");
+Ids.push("{productId}");
+Names.push("{productName}");
+Quantity.push("{productAmount}");
 [/loop_product]
 
 <script>
