@@ -78,20 +78,37 @@ window.dataLayer.push({
 ```javascript
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-    'event': "view_item_list",
+    'event': "view_item",
+    'currency': "TRY",
+    'value': 7.77,
+    'items': [{
+        'item_name': "Bayan Kol Saati",
+        'item_id': "12345",
+        'price': 596.70,
+        'item_brand': "Guess",
+        'item_category': "Saat",
+        'item_category2': "Bayan Saat Modelleri", // Varsa diğer alt kategoriler de eklesin
+        'item_category3': "3. Kategori",
+        'item_category4': "4. Kategori",
+        'item_variant': "Metalik Gri",
+        'item_list_name': "Search Results", // Kullanıcı hangi listeden gelmiş: Arama sonuçlarından, Bayan Saat Modelleri kategorisinden ya da ana sayfada Çok Satılanlar listesinden.
+        'id': "12345", // item_id değeri eklenecek.
+        'google_business_vertical': 'retail' // Google Ads parametresi, değişmez.
+    }],
     'ecommerce': {
-        'items': [{
-            'item_name': "Bayan Kol Saati",
-            'item_id': "12345",
-            'price': 596.70,
-            'item_brand': "Guess",
-            'item_category': "Saat",
-            'item_category2': "Bayan Saat Modelleri", // Varsa diğer alt kategoriler de eklesin
-            'item_category3': "3. Kategori",
-            'item_category4': "4. Kategori",
-            'item_variant': "Metalik Gri",
-            'item_list_name': "Search Results", // Kullanıcı hangi listeden gelmiş: Arama sonuçlarından, Bayan Saat Modelleri kategorisinden ya da ana sayfada Çok Satılanlar listesinden.
-        }]
+        'detail': {
+            'actionField': {
+                'list': 'Apparel Gallery' // Ürüne hangi listeden geldi? İsteğe bağlıdır. '' boş bırakılabilir.
+            },
+            'products': [{
+                'name': 'Triblend Android T-Shirt',
+                'id': '12345',
+                'price': '15.25',
+                'brand': 'Google',
+                'category': 'Apparel',
+                'variant': 'Gray'
+            }]
+        }
     }
 });
 ```
